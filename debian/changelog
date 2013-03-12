@@ -1,3 +1,9 @@
+xorg-run (1.1) unstable; urgency=low
+
+  * Enable the cursor
+
+ -- Ryan Kuester <rkuester@insymbols.com>  Tue, 12 Mar 2013 16:07:35 +0000
+
 xorg-run (1.0) unstable; urgency=low
 
   * Initial release
