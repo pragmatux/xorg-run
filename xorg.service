@@ -3,6 +3,6 @@ Description=Xorg server
 
 [Service]
 Type=notify
-ExecStart=/usr/bin/xorg-launch-helper :0 -nolisten tcp -noreset -nocursor -verbose
+ExecStart=/usr/bin/xorg-launch-helper :0 -nolisten tcp -noreset -verbose
 Restart=always
 RestartSec=10
