@@ -1,3 +1,9 @@
+xorg-run (1.2) unstable; urgency=low
+
+  * Revert "Enable the cursor"
+
+ -- Ryan Kuester <rkuester@insymbols.com>  Thu, 14 Mar 2013 20:27:52 +0000
+
 xorg-run (1.1) unstable; urgency=low
 
   * Enable the cursor
