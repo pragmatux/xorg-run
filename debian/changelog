@@ -1,17 +1,11 @@
-xorg-run (1.2) unstable; urgency=low
+xorg-run (0) UNRELEASED; urgency=low
 
-  * Revert "Enable the cursor"
+  NOTE this changelog is generated from git history when the
+  source package is built. Any change made to this file will be
+  overwritten. Do not commit the generated file to git.
 
- -- Ryan Kuester <rkuester@insymbols.com>  Thu, 14 Mar 2013 20:27:52 +0000
+  The package name above is significant and must be maintained,
+  as several debian tools (e.g., from the devscripts package)
+  read the changelog.
 
-xorg-run (1.1) unstable; urgency=low
-
-  * Enable the cursor
-
- -- Ryan Kuester <rkuester@insymbols.com>  Tue, 12 Mar 2013 16:07:35 +0000
-
-xorg-run (1.0) unstable; urgency=low
-
-  * Initial release
-
- -- Ryan Kuester <rkuester@insymbols.com>  Tue, 12 Mar 2013 04:18:08 +0000
+ -- Generated <an@example.com>  Thu, 01 Jan 1970 00:00:00 +0000
