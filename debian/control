@@ -2,8 +2,8 @@ Source: xorg-run
 Section: config
 Priority: extra
 Maintainer: Ryan Kuester <rkuester@insymbols.com>
-Build-Depends: debhelper (>= 8.0.0), dh-systemd
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 10.0.0)
+Standards-Version: 3.9.8
 Vcs-Git: http://git.pragmatux.org/xorg-run.git
 Vcs-Browser: http://git.pragmatux.org/xorg-run.git
 
