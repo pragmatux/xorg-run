@@ -1,0 +1,9 @@
+[Unit]
+Description=Xorg server for DISPLAY=:%i
+After=xorg@%i.socket
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/Xorg :%i -nolisten tcp -noreset -nocursor -verbose -dpms -s 0
+Restart=always
+RestartSec=10
