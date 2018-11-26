@@ -1,1 +1,1 @@
-xorg.service /lib/systemd/system
+xorg.* /lib/systemd/system

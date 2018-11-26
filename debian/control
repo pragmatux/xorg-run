@@ -9,6 +9,6 @@ Vcs-Browser: http://git.pragmatux.org/xorg-run.git
 
 Package: xorg-run
 Architecture: all
-Depends: systemd, xorg-launch-helper, ${misc:Depends}
-Description: Run Xorg
- This is an Xorg unit configuration for systemd.
+Depends: systemd, ${misc:Depends}
+Description: Run Xorg via socket activation
+ Installing this package enables Xorg to be run via socket activation.

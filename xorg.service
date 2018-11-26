@@ -1,8 +1,9 @@
 [Unit]
-Description=Xorg server
+Description=Xorg server for DISPLAY=:0
+After=xorg.socket
 
 [Service]
-Type=notify
-ExecStart=/usr/bin/xorg-launch-helper :0 -nolisten tcp -noreset -nocursor -verbose -dpms -s 0
+Type=simple
+ExecStart=/usr/bin/Xorg :0 -nolisten tcp -noreset -nocursor -verbose -dpms -s 0
 Restart=always
 RestartSec=10
