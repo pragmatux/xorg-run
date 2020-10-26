@@ -7,3 +7,4 @@ Type=simple
 ExecStart=/usr/bin/Xorg :0 -nolisten tcp -noreset -nocursor -verbose -dpms -s 0
 Restart=always
 RestartSec=10
+KillSignal=SIGKILL
